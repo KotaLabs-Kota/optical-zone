@@ -303,7 +303,7 @@
   function renderFaqs() {
     const box = $("#faqList");
     if (!box) return;
-    box.innerHTML = FAQS.map((f) => `<details><summary>${esc(f.q)} ${icon("plus")}</summary><p>${esc(f.a)}</p></details>`).join("");
+    box.innerHTML = FAQS.map((f) => `<details><summary>${esc(f.q)} ${icon("plus", "icon-plus")}${icon("minus", "icon-minus")}</summary><p>${esc(f.a)}</p></details>`).join("");
   }
 
   /* ---------- home ---------- */
@@ -544,17 +544,17 @@
 
         <div class="accordion">
           <details open>
-            <summary>Details ${icon("plus")}</summary>
+            <summary>Details ${icon("plus", "icon-plus")}${icon("minus", "icon-minus")}</summary>
             <div class="acc-body"><ul>${p.details.map((d) => `<li>${esc(d)}</li>`).join("")}</ul></div>
           </details>
           <details>
-            <summary>Fit & try-on ${icon("plus")}</summary>
+            <summary>Fit & try-on ${icon("plus", "icon-plus")}${icon("minus", "icon-minus")}</summary>
             <div class="acc-body">
               <p>Visit the shop to try this frame on. Bring your current glasses or prescription if you have them. We'll check the fit against your face before you leave.</p>
             </div>
           </details>
           <details>
-            <summary>Care ${icon("plus")}</summary>
+            <summary>Care ${icon("plus", "icon-plus")}${icon("minus", "icon-minus")}</summary>
             <div class="acc-body">
               <p>Wipe lenses with a microfibre cloth. Store the frame in its case when not in use, and avoid leaving it in a hot car.</p>
             </div>
