@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frame Details | Optical Zone Kota</title>
+<meta name="description" content="Frame details, colour and lens options. Enquire on WhatsApp about price and availability at Optical Zone Kota.">
+<meta name="theme-color" content="#0a0f1c">
+<meta property="og:title" content="Frame Details | Optical Zone Kota">
+<meta property="og:description" content="Frame details, colour and lens options. Enquire on WhatsApp about price and availability at Optical Zone Kota.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff6b2c'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' text-anchor='middle' fill='%231a0b03'%3EOZ%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/space-grotesk-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/data.js" defer></script>
+<script src="js/app.js" defer></script>
+</head>
+<body class="has-mobile-bar" data-page="product">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Optical Zone Kota, home">
+        <span class="brand__mark" aria-hidden="true">OZ</span>
+        <span class="brand__text"><span class="brand__name">Optical Zone</span><span class="brand__sub">Kota · Vigyan Nagar</span></span>
+      </a>
+    <nav class="nav" aria-label="Main">
+      <a class="nav__link" href="shop.html?category=eyeglasses" aria-current="page">Eyeglasses</a>
+      <a class="nav__link" href="shop.html?category=sunglasses">Sunglasses</a>
+      <a class="nav__link" href="eye-tests.html">Eye tests</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="contact.html">Visit</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-open-search aria-label="Search frames"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-search"/></svg></button>
+      <button class="icon-btn" type="button" data-open-saved aria-label="Saved frames"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-heart"/></svg><span class="count-dot" data-saved-count>0</span></button>
+      <a class="btn btn-primary btn-sm" href="eye-tests.html">Book an eye test</a>
+      <button class="icon-btn menu-toggle" type="button" data-open-menu aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Site menu">
+  <div class="mobile-menu__top">
+    <a class="brand" href="index.html" aria-label="Optical Zone Kota, home">
+        <span class="brand__mark" aria-hidden="true">OZ</span>
+        <span class="brand__text"><span class="brand__name">Optical Zone</span><span class="brand__sub">Kota · Vigyan Nagar</span></span>
+      </a>
+    <button class="icon-btn" type="button" data-close aria-label="Close menu"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-close"/></svg></button>
+  </div>
+  <a class="mm-link" href="shop.html?category=eyeglasses">Eyeglasses</a>
+  <a class="mm-link" href="shop.html?category=sunglasses">Sunglasses</a>
+  <a class="mm-link" href="eye-tests.html">Eye tests</a>
+  <a class="mm-link" href="about.html">About</a>
+  <a class="mm-link" href="contact.html">Visit & contact</a>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="eye-tests.html">Book an eye test</a>
+    <a class="btn btn-wa" data-biz="wa-generic" href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"/></svg> WhatsApp us</a>
+    <a class="btn btn-ghost" data-biz="phone-href" href="#"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-phone"/></svg> Call the shop</a>
+  </div>
+</div>
+
+<div class="search-panel" id="searchPanel" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="container">
+    <div class="search-field">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-search"/></svg>
+      <label class="sr-only" for="searchInput">Search frames and pages</label>
+      <input id="searchInput" type="search" placeholder="Search frames, shapes, colours…" autocomplete="off">
+      <button class="icon-btn" type="button" data-close aria-label="Close search"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-close"/></svg></button>
+    </div>
+    <div class="search-results" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+
+<aside class="drawer" id="savedDrawer" aria-label="Saved frames">
+  <div class="drawer__head">
+    <h2 style="font-size:1.3rem">Saved frames</h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close saved frames"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-close"/></svg></button>
+  </div>
+  <div class="drawer__body" id="savedList"></div>
+  <div class="drawer__foot" id="savedFoot" hidden>
+    <a class="btn btn-wa btn-block" id="savedEnquire" href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"/></svg> WhatsApp these frames</a>
+  </div>
+</aside>
+<div class="scrim" id="scrim" data-close></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<main id="main">
+
+<div class="container" style="padding-top:28px">
+  <nav class="crumbs" aria-label="Breadcrumb" style="margin-bottom:0">
+    <a href="index.html">Home</a><span aria-hidden="true">/</span>
+    <a href="shop.html" id="crumbCategory">Shop</a><span aria-hidden="true">/</span>
+    <span aria-current="page" id="crumbName">Frame</span>
+  </nav>
+  <section class="pdp" id="pdp" aria-live="polite"></section>
+</div>
+<section class="related container" aria-labelledby="rel-title">
+  <div class="section__head reveal" style="margin-bottom:28px">
+    <h2 id="rel-title" style="font-size:clamp(1.8rem,3.4vw,2.6rem)">You may also like</h2>
+    <a class="link-arrow" href="shop.html">Back to the shop</a>
+  </div>
+  <div class="grid-products" id="relatedGrid"></div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Optical Zone Kota, home">
+        <span class="brand__mark" aria-hidden="true">OZ</span>
+        <span class="brand__text"><span class="brand__name">Optical Zone</span><span class="brand__sub">Kota · Vigyan Nagar</span></span>
+      </a>
+        <p>Eyeglasses, branded sunglasses and in-store eye testing in Vigyan Nagar, Kota.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="shop.html?category=eyeglasses">Eyeglasses</a></li>
+          <li><a href="shop.html?category=sunglasses">Sunglasses</a></li>
+          <li><a href="eye-tests.html">Eye tests</a></li>
+          <li><a href="about.html">About the shop</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p class="muted">Plot No. 4-J-7, opposite Mayank School<br>Main Road, Vigyan Nagar<br>Kota, Rajasthan 324005</p>
+        <p style="margin-top:14px"><a data-biz="directions" href="#" target="_blank" rel="noopener">Get directions →</a></p>
+      </div>
+      <div>
+        <h4>Talk to us</h4>
+        <ul>
+          <li><a data-biz="phone-href" href="#"><span data-biz="phone">+91 96940 31470</span></a></li>
+          <li><a data-biz="wa-generic" href="#" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li class="muted">Hours: <span data-biz="hours">10:00 am – 9:00 pm</span><br><small>Call to confirm before visiting.</small></li>
+        </ul>
+      </div>
+    </div>
+    <div class="kl-card">
+      <div class="kl-card__brand">
+        <span class="kl-card__mark" aria-hidden="true">K<b>L</b></span>
+        <div class="kl-card__text">
+          <span class="kl-card__eyebrow"><span class="kl-card__dot" aria-hidden="true"></span>Designed &amp; engineered by</span>
+          <span class="kl-card__name">KotaLabs</span>
+          <span class="kl-card__tag">Websites and digital storefronts for local businesses</span>
+        </div>
+      </div>
+      <a class="kl-card__cta" href="https://kotalabs.in" target="_blank" rel="noopener">Explore KotaLabs <svg class="icon icon--sm" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-arrow-right"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<nav class="mobile-bar" aria-label="Quick actions">
+  <a data-biz="phone-href" href="#"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-phone"/></svg><span>Call</span></a>
+  <a data-biz="wa-generic" href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-whatsapp"/></svg><span>WhatsApp</span></a>
+  <a data-biz="directions" href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#i-pin"/></svg><span>Directions</span></a>
+</nav>
+</body>
+</html>
