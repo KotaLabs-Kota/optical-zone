@@ -32,7 +32,7 @@ Global UI: sticky header, search overlay (press `/`), saved-frames drawer, mobil
 The site is deliberately different from the reference storefronts (the mishra-optics and Vision Eye Plus sites):
 
 - **Midnight ink surfaces** with a single **signal-orange** accent, instead of cream or lilac.
-- **Space Grotesk** for display type and **Inter** for body text, instead of a serif.
+- **Bricolage Grotesque** for display type and **DM Sans** for body text, instead of a serif.
 - **Bento "zone" tiles** and a grid-line hero instead of product-first editorial layouts.
 - **Live opening status** (computed in Kota time) on the hero and in the visit card.
 - A **frame finder** built on face shape and use, instead of a face-shape pill row.
@@ -47,7 +47,7 @@ The site is deliberately different from the reference storefronts (the mishra-op
 ├── js/data.js            # business details, sample catalogue, face-shape guide, FAQs, eye-test steps
 ├── js/app.js             # rendering, filters, saved frames, search, finder, forms, WhatsApp handoff
 ├── assets/icons.svg      # inline SVG icon sprite
-├── assets/fonts/         # self-hosted woff2 (Space Grotesk, Inter) with licence files
+├── assets/fonts/         # self-hosted woff2 (Bricolage Grotesque, DM Sans) with licence files
 └── images/               # hero, frame, eye-test and showroom imagery (AI-generated)
 ```
 
